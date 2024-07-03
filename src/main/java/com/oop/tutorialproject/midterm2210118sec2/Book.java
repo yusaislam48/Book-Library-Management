@@ -12,7 +12,7 @@ public class Book {
         this.bookTitle = bookTitle;
         this.bookGenre = bookGenre;
         this.price = price;
-
+        noOfBooks++;
     }
 
     public int getBookId() {
